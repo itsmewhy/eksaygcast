@@ -1,6 +1,6 @@
 FROM greycilik/cilikuserbot:buster
 
-RUN git clone -b EskayUbot https://github.com/eskayaja/eskayubot /home/eskayubot/ \
+RUN git clone -b eskaygcast https://github.com/eskaytod/eksaygcast /home/eskayubot/ \
     && chmod 777 /home/eskayubot \
     && mkdir /home/eskayubot/bin/
 
